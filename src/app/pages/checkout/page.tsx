@@ -19,7 +19,9 @@ function Checkout() {
       }}>
             {/* <img src="/instagram.png" alt="" /> */}
             <div className='flex  flex-col items-center justify-center py-32'>
-                <h1 className='text-[60px] font-bold '><img src="/shoplogo.png" alt="" /></h1>
+                {/* <h1 className='text-[60px] font-bold '> */}
+                    <img src="/shoplogo.png" alt="" />
+                    {/* </h1> */}
                 <p className='text-[48px] font-medium text-black'>Checkout </p>
                 <button className='text-[16px] flex items-center space-x-2 shadow-slate-400 py-2 rounded-3xl my-3 font-medium text-black'>Home <FaAngleRight className='pl-2'/>
                 <span className='font-light'>Checkout</span></button>

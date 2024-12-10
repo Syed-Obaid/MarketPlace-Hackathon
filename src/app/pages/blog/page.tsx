@@ -15,7 +15,7 @@ function Blog() {
   <div className='text-center'>
     <img src="/blog1.png" alt="" />
     <p className='text-[20px] pt-4 text-black'>Going all-in with millennial design</p>
-    <p className='text-[24px] font-medium max-w-[120px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
+    <p className='text-[24px] font-medium max-w-[130px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
     <p className='text-[13px] flex items-center justify-center space-x-2 py-3 text-black'><FaRegClock /> 5 min <FaBagShopping /> 12th Oct 2022
     </p>
   </div>
@@ -23,7 +23,7 @@ function Blog() {
   <div className='text-center'>
     <img src="/blog2.png" alt="" />
     <p className='text-[20px] pt-4 text-black'>Going all-in with millennial design</p>
-    <p className='text-[24px] font-medium max-w-[120px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
+    <p className='text-[24px] font-medium max-w-[130px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
     <p className='text-[13px] flex items-center justify-center space-x-2 py-3 text-black'><FaRegClock /> 5 min <FaBagShopping /> 12th Oct 2022
     </p>
   </div>
@@ -31,7 +31,7 @@ function Blog() {
   <div className='text-center'>
     <img src="/blog3.png" alt="" />
     <p className='text-[20px] pt-4 text-black'>Going all-in with millennial design</p>
-    <p className='text-[24px] font-medium max-w-[120px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
+    <p className='text-[24px] font-medium max-w-[130px] text-center mx-auto border-b-2 border-black text-black'>Read More</p>
     <p className='text-[13px] flex items-center justify-center space-x-2 py-3 text-black'><FaRegClock /> 5 min <FaBagShopping /> 12th Oct 2022
     </p>
   </div>

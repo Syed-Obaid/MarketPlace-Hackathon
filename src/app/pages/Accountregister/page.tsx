@@ -11,13 +11,13 @@ function Accountregister() {
 
                     <div>
 <p className='text-[16px] font-medium text-black'>Username or email address</p>
-<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[18rem] rounded' />
+<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[12rem] md:w-[18rem] rounded' />
 
 </div>
 
 <div>
 <p className='text-[16px] font-medium text-black'>Password</p>
-<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[18rem] rounded' />
+<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[12rem] md:w-[18rem] rounded' />
 
 </div>
 
@@ -38,7 +38,7 @@ function Accountregister() {
 
                     <div>
 <p className='text-[16px] font-medium text-black'>Email address</p>
-<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[18rem] rounded' />
+<input type="text" placeholder='Abc' name="" id="" className='py-2 ps-2 border-2 w-[12rem] md:w-[18rem] rounded' />
 
 </div>
 
