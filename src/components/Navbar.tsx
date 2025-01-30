@@ -25,16 +25,16 @@ function Navbar() {
             <div>{/* <img src="/Logo.png" alt="" /> */}</div>
             <div className=" hidden md:block">
               <div className="flex items-center  space-x-14 text-base">
-                <Link className="hover:underline p-2" href="/">
+                <Link className="hover:underline p-2" href="../">
                   Home
                 </Link>
-                <Link className="hover:underline p-2" href="/pages/shop">
+                <Link className="hover:underline p-2" href="../pages/shop">
                   Shop
                 </Link>
-                <Link className="hover:underline p-2" href="/pages/blogdetail">
+                <Link className="hover:underline p-2" href="../pages/blogdetail">
                   Blog
                 </Link>
-                <Link className="hover:underline p-2" href="/pages/contact">
+                <Link className="hover:underline p-2" href="../pages/contact">
                   Contact
                 </Link>
               </div>
@@ -104,24 +104,24 @@ function Navbar() {
         {isClick && (
           <div className=" md:hidden bg-white">
             <div className="space-y-4 flex flex-col justify-center items-center">
-              <Link className="hover:underline block text-black p-2" href="/">
+              <Link className="hover:underline block text-black p-2" href="../">
                 Home
               </Link>
               <Link
                 className="hover:underline block text-black p-2"
-                href="/pages/shop"
+                href="../pages/shop"
               >
                 Shop
               </Link>
               <Link
                 className="hover:underline block text-black p-2"
-                href="/pages/blogdetail"
+                href="../pages/blogdetail"
               >
                 Blog
               </Link>
               <Link
                 className="hover:underline block text-black p-2"
-                href="/pages/contact"
+                href="../pages/contact"
               >
                 Contact
               </Link>
@@ -134,9 +134,13 @@ function Navbar() {
                 </Link>
                 <IoSearch />
                 <FaRegHeart />
-                <Link href="../pages/cart">
-                  {" "}
-                  <IoCartOutline />
+                <Link href="/pages/cart" className="relative">
+                  <IoCartOutline className="w-6 h-6" />
+                  {totalItems > 0 && (
+                    <span className="absolute -top-1  -right-1 bg-red-600 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                      {totalItems}
+                    </span>
+                  )}
                 </Link>
               </div>
             </div>

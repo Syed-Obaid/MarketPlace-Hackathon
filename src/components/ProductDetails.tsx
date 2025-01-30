@@ -24,7 +24,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       <section className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 bg-white">
         {/* Breadcrumb */}
         <div className="text-[16px] px-4 flex flex-wrap gap-4 md:gap-0 items-center space-x-2 text-[#9f9f9f] py-2 my-3 font-medium">
-          <Link className="flex items-center" href="/">
+          <Link className="flex items-center" href="../">
             Home <FaAngleRight className="pl-2" />
           </Link>
           <Link className="flex items-center" href="../shop">
