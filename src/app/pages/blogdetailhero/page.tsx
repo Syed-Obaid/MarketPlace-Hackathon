@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaUser, FaShoppingBag } from "react-icons/fa";
 import { FaTag } from "react-icons/fa6";
@@ -10,7 +11,8 @@ function Blogdetailhero() {
         <div className="flex flex-wrap justify-evenly py-8 mx-auto">
           <div>
             <div>
-              <img src="/bloghero1.png" alt="" />
+              
+              <Image src={"/bloghero1.png"} alt="blog" width={800} height={600}/>
               <div className="flex flex-wrap space-x-5 items-center py-4">
                 <p className="text-[#9F9F9F] text-[16px] flex items-center">
                   <FaUser className="mr-3" />
@@ -47,7 +49,8 @@ function Blogdetailhero() {
             </div>
 
             <div>
-              <img src="/bloghero2.png" alt="" />
+         
+              <Image src={"/bloghero2.png"} alt="blog" width={800} height={600}/>
               <div className="flex flex-wrap space-x-5 items-center py-4">
                 <p className="text-[#9F9F9F] text-[16px] flex items-center">
                   <FaUser className="mr-3" />
@@ -84,7 +87,7 @@ function Blogdetailhero() {
             </div>
 
             <div>
-              <img src="/bloghero3.png" alt="" />
+            <Image src={"/bloghero3.png"} alt="blog" width={800} height={600}/>
               <div className="flex flex-wrap space-x-5 items-center py-4">
                 <p className="text-[#9F9F9F] text-[16px] flex items-center">
                   <FaUser className="mr-3" />
@@ -134,7 +137,9 @@ function Blogdetailhero() {
                   <IoSearch className="text-2xl absolute right-4 bottom-3 " />
                 </p>
 
-                <h1 className="font-semibold text-[28px] py-8 text-black">Categories</h1>
+                <h1 className="font-semibold text-[28px] py-8 text-black">
+                  Categories
+                </h1>
                 <div className="flex flex-col space-y-10 py-5">
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between  ">
                     <span>Crafts </span>
@@ -160,11 +165,14 @@ function Blogdetailhero() {
               </div>
 
               <div className="pt-5">
-                <h1 className="font-semibold text-[28px] py-8 text-black">Recent Posts</h1>
+                <h1 className="font-semibold text-[28px] py-8 text-black">
+                  Recent Posts
+                </h1>
                 <div className="flex flex-col space-y-10 py-5">
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between  space-x-4">
                     {" "}
-                    <img src="/blogsmall1.png" alt="" />
+                   
+                    <Image src={"/blogsmall1.png"} alt="blog" width={80} height={60}/>
                     <p className="flex flex-col justify-center items-center ">
                       <span className=" w-[10rem] text-black ">
                         Going all-in with millennial design
@@ -176,7 +184,7 @@ function Blogdetailhero() {
                   </p>
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between space-x-4">
                     {" "}
-                    <img src="/blogsmall2.png" alt="" />
+                    <Image src={"/blogsmall2.png"} alt="blog" width={80} height={60}/>
                     <p className="flex flex-col justify-center items-center ">
                       <span className=" w-[10rem] text-black ">
                         Exploring new ways of decorating
@@ -188,7 +196,7 @@ function Blogdetailhero() {
                   </p>
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between space-x-4">
                     {" "}
-                    <img src="/blogsmall3.png" alt="" />
+                    <Image src={"/blogsmall3.png"} alt="blog" width={80} height={60}/>
                     <p className="flex flex-col justify-center items-center ">
                       <span className=" w-[10rem] text-black ">
                         Handmade pieces that took time to make
@@ -200,7 +208,7 @@ function Blogdetailhero() {
                   </p>
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between space-x-4">
                     {" "}
-                    <img src="/blogsmall4.png" alt="" />
+                    <Image src={"/blogsmall4.png"} alt="blog" width={80} height={60}/>
                     <p className="flex flex-col justify-center items-center ">
                       <span className=" w-[10rem] text-black ">
                         Modern home in Milan
@@ -212,7 +220,7 @@ function Blogdetailhero() {
                   </p>
                   <p className="text-[16px] text-[#9F9F9F] flex flex-wrap justify-between space-x-4">
                     {" "}
-                    <img src="/blogsmall5.png" alt="" />
+                    <Image src={"/blogsmall5.png"} alt="blog" width={80} height={60}/>
                     <p className="flex flex-col justify-center items-center ">
                       <span className=" w-[10rem] text-black ">
                         Colorful office redesign
@@ -229,10 +237,18 @@ function Blogdetailhero() {
         </div>
 
         <div className=" flex flex-wrap justify-center gap-8 py-12">
-        <p className='text-[20px] bg-[#FBEBB5] w-[40px] text-center content-center h-[40px] rounded text-black'>1</p>
-<p className='text-[20px] bg-[#FFF9E5] w-[40px] text-center content-center h-[40px] rounded text-black'>2</p>
-<p className='text-[20px] bg-[#FFF9E5] w-[40px] text-center content-center h-[40px] rounded text-black'>3</p>
-<p className='text-[20px] bg-[#FFF9E5] w-[78px] text-center content-center h-[40px] rounded text-black'>Next</p>
+          <p className="text-[20px] bg-[#FBEBB5] w-[40px] text-center content-center h-[40px] rounded text-black">
+            1
+          </p>
+          <p className="text-[20px] bg-[#FFF9E5] w-[40px] text-center content-center h-[40px] rounded text-black">
+            2
+          </p>
+          <p className="text-[20px] bg-[#FFF9E5] w-[40px] text-center content-center h-[40px] rounded text-black">
+            3
+          </p>
+          <p className="text-[20px] bg-[#FFF9E5] w-[78px] text-center content-center h-[40px] rounded text-black">
+            Next
+          </p>
         </div>
       </section>
     </>
